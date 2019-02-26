@@ -2,6 +2,9 @@
 const puppeteer = require("puppeteer");
 const pontoonql = require("pontoonql");
 
+// These were taken from https://github.com/mozilla/testpilot/blob/9c663ab451c4d89de013fd1aaaa5a78f0ae2c438/src/index.html#L6-L7
+// But are currently unused since I'm using pontoonql to query the Pontoon directly for locales with 95%+ translations.
+// But also, 95% is arbitrary since there are lots of strings and the 5% missing could be the entirety of the EOL site.
 const availableLocales = "cs,cy,de,dsb,el,en-CA,en-US,es-AR,es-ES,fr,fy-NL,hsb,hu,it,nl,pt-PT,ru,sk,sl,sv-SE,tr,zh-CN,zh-TW".split(
   ","
 );
