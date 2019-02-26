@@ -1,5 +1,6 @@
 {
   "name": "testpilot-puppeteer",
+  "description": "Scrape the TestPilot site using the 95% translated locales.",
   "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
   "bugs": {
@@ -20,6 +21,7 @@
   },
   "scripts": {
     "start": "node index",
+    "shotlist": "node shotlist > ./shots/README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
